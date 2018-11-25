@@ -69,8 +69,8 @@ var prefix = "-";
   
  
 
-if (command == "emb")    {
-  if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **');
+if (command == "!spam")    {
+  if(!message.channel.guild) return message.reply('** https://discord.gg/JpYSRx  **');
     let say = new Discord.RichEmbed()
     .setDescription(args.join("  "))
     .setColor("RANDOM")
