@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const jackeo = ['' , '434327219310034954' , '432619208363474945' , ''];
+const jackeo = ['' , '434327219310034954' , '432619208363474945' , '378453701771395072'];
 
 client.on('ready', () => {
    console.log(`----------------`);
